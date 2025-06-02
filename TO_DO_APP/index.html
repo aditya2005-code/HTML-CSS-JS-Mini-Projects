@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskRecorder Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task<span>Recorder</span></h1>
+            <p>Organize your tasks efficiently and boost your productivity</p>
+        </header>
+
+        <div class="task-board">
+            <form id="task-form" class="task-form">
+                <div class="input-group">
+                    <input type="text" id="task-input" placeholder="Add a new task..." required>
+                    <select id="priority-select">
+                        <option value="low">Low</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                    <button type="submit" id="addTaskButton">Add Task</button>
+                </div>
+            </form>
+
+            <div class="task-filters">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search tasks...">
+                </div>
+                <select id="filter-select">
+                    <option value="all">All Tasks</option>
+                    <option value="active">Active</option>
+                    <option value="completed">Completed</option>
+                    <option value="high">High Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="low">Low Priority</option>
+                </select>
+            </div>
+
+            <ul id="task-list" class="task-list">
+            </ul>
+
+            <div class="task-summary">
+                <span id="tasks-count">0 tasks left to complete</span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
