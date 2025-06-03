@@ -92,20 +92,71 @@ This is a simple web-based To-Do List application that allows users to add tasks
 
 ---
 
-## Example Usage
+5. 🎮 Simon Says Game
 
-```js
-todo.push({ task: "Finish project report", priority: "High" });
-displayTasksByPriority();
+A simple and fun Simon Says game built using **HTML**, **CSS**, and **JavaScript**. Test your memory as the game shows an increasingly long sequence of colors, and your job is to repeat it correctly!
 
+## 🛠️ Features
 
-🚀 How to Run
-#Clone the repository:
+- Four colorful buttons: Red, Green, Yellow, and Purple
+- Random sequence generation each level
+- Click-based input for player interaction
+- Game starts on any key press
+- Game over feedback and reset option
 
-bash
+## 📁 Project Structure
+
+simon-game/
+│
+├── index.html # Main HTML structure
+├── style.css # Styling of the game
+├── app.js # JavaScript game logic
+└── README.md # Project description (this file)
+
+pgsql
 Copy
 Edit
-git clone https://github.com/aditya2005-code/HTML-CSS-JS-Mini-Projects
-Open any project folder.
 
+## 🚀 How to Run the Game
+
+1. Clone or download this repository.
+2. Open `index.html` in any modern web browser.
+3. Press any key to start playing.
+4. Repeat the sequence of button flashes by clicking them in the correct order.
+
+## 🧠 Game Rules
+
+- The game generates a random color sequence.
+- Each level, one new color is added to the sequence.
+- You must click the colors in the same order.
+- If you click the wrong color, the game ends.
+- Press any key to restart the game after game over.
+
+## 🖼️ Demo
+
+*(You can add a screen recording or live demo link here if available)*
+
+## 🧑‍💻 Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript (no external libraries)
+
+## ✨ Screenshots
+
+*(Add screenshots here if needed)*
+
+## 📌 To-Do (Optional)
+
+- Add sound feedback for each color.
+- Mobile-friendly layout.
+- Scoreboard / highest score tracking.
+
+## 📃 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Happy Coding! ✨🎮
 Launch the index.html file in your browser (or use Live Server in VS Code).
